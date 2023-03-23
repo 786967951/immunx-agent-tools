@@ -1,0 +1,47 @@
+{
+  "name": "immunx-agent-tools",
+  "version": "0.0.1",
+  "description": "Immunx Agents for common approaches",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "lint-fix": "tslint -p tsconfig.json --fix"
+  },
+  "keywords": [],
+  "author": "Immunx",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/jest-when": "^3.5.0",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@ethersproject/properties": "^5.6.0",
+    "@ethersproject/transactions": "^5.6.2",
+    "async-mutex": "^0.3.2",
+    "ethers-multicall": "^0.2.3",
+    "immunx-agent": "^0.0.1",
+    "jest-when": "^3.5.1",
+    "lru-cache": "^7.12.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": ""
+}
