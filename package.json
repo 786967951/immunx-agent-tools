@@ -1,6 +1,6 @@
 {
   "name": "immunx-agent-tools",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Immunx Agents for common approaches",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -32,7 +32,7 @@
     "@ethersproject/transactions": "^5.6.2",
     "async-mutex": "^0.3.2",
     "ethers-multicall": "^0.2.3",
-    "immunx-agent": "^0.0.1",
+    "immunx-agent": "^0.0.7",
     "jest-when": "^3.5.1",
     "lru-cache": "^7.12.0"
   },
